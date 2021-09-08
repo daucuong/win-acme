@@ -1,6 +1,5 @@
 ﻿using PKISharp.WACS.Plugins.Base;
 using PKISharp.WACS.Plugins.Base.Options;
-using PKISharp.WACS.Plugins.ValidationPlugins.Dns;
 using PKISharp.WACS.Services.Serialization;
 
 namespace PKISharp.WACS.Plugins.StorePlugins
@@ -19,5 +18,7 @@ namespace PKISharp.WACS.Plugins.StorePlugins
         public ProtectedString? SecretKey { get; set; }
 
         public ProtectedString? AccessKey { get; set; }
+
+        public ProtectedString? PfxPassword { get; set; }
     }
 }
