@@ -2,9 +2,9 @@ name: .NET
 
 on:
   push:
-    branches: [ s3-support ]
+    branches: [ master ]
   pull_request:
-    branches: [ s3-support ]
+    branches: [ master ]
 
 jobs:
   build:
